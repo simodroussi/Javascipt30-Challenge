@@ -9,6 +9,6 @@ window.addEventListener('keydown', function (e) {
 
 window.addEventListener('keyup', function (e) {
   const keys = document.querySelector(`.key[data-key="${e.keyCode}"]`);
-    if(!keys) return;
-    keys.classList.remove('playing');
-  })
+  if (!keys) return;
+  keys.classList.remove('playing');
+})
