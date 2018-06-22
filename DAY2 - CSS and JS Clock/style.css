@@ -24,7 +24,7 @@ body {
   height: 30rem;
   border:20px solid black;
   border-radius:50%;
-  margin:50px auto;
+  margin: 50px auto;
   position: relative;
   padding:2rem;
   box-shadow:
@@ -35,12 +35,13 @@ body {
 }
 
 .clock-face {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      /* transform: translateY(-3px); /* account for the height of the clock hands */ */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px); /* account for the height of the clock hands */
     }
- .hand {
+
+.hand {
   position: absolute;
   width:50%;
   height:6px;
@@ -58,5 +59,6 @@ body {
 }
 
 .hour-hand {
-  
+  width: 40%;
+  right: 50%;
 }
