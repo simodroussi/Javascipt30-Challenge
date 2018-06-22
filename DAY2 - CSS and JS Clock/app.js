@@ -21,9 +21,7 @@ function setDate() {
   minuteHand.style.transform = `rotate(${minutesDegrees}deg)`;
   hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
 
-  console.log(seconds);
-  console.log(minutes);
-  console.log(hours);
+
 }
 
 
