@@ -1,0 +1,15 @@
+body {
+  height: 100%;
+  width: auto;
+  text-align: center;
+  vertical-align: middle;
+  background: #193549;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+p {
+  line-height: 500px;
+}
